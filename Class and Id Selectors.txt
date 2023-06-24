@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Class and Id Selectors ni Penduko</title>
+
+<link rel="stylesheet" href="PendukoClassId.css">
+
+<style>
+
+body {background-image: url ("3ddc02d9c66ebf8dddbc82b9e8fda179.jpg");
+	background-size: cover;
+}
+
+h1#hd {	color: navy;
+	text-align:center;
+	font-family: Segoe UI;
+}
+
+h2.italic {font-style: italic;
+}
+
+h2#ex {	font-family: Century Gothic;
+	text-align: right;
+	font-size: 40px;
+}
+
+p.italic {font-style:italic;
+}
+
+p#ex {	font-family:Tahoma;
+	text-align:right;
+}
+
+footer {font-family: Calibri;
+	color: navy;
+}
+</style>
+
+</head>
+
+<header>
+<h1 id="hd">CSS Styles</h1>
+</header>
+
+<hr>
+
+<body>
+
+<h2 class="italic">Inline Style</h2>
+<p class="italic"><b>Inline styles</b> relate to a specific HTML tag, using a <b>style</b> attribute with a CSS rule to style a particular page element. They’re useful for quick and permanent changes but are less flexible than external and internal stylesheets, as each inline style you create must be edited separately if you’re making a design change.</p>
+
+<h2 class="italic">Internal Style</h2>
+<p class="italic">An <b>internal stylesheet</b> holds CSS rules for the page in the <b>head</b> section of the HTML file. The rules only apply to that page, but you can configure CSS classes and IDs to style multiple elements in the page code. Again, a single change to the CSS rule will apply to all tagged page elements.
+</p>
+
+<h2 id="ex">External Style</h2>
+<p id="ex">An <b>external stylesheet</b> is a standalone <b>.css</b> file linked from a web page. Using external stylesheets, you can apply rules to multiple web pages. If you ever need to make widespread changes to your website design, a single change in the stylesheet can be applied to all linked pages, saving lots of time and effort
+</p>
+
+</body>
+
+<footer>
+<h5 id="ft">Source: <a href="https://www.hostpapa.com/knowledgebase/understanding-inline-internal-external-css-styles/">https://www.hostpapa.com/knowledgebase/understanding-inline-internal-external-css-styles/</a> </h5>
+</footer>
+
+</html>
